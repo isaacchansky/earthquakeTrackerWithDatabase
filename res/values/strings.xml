@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">Earthquake Viewer +Database</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Earthquake Viewer +database</string>
+    <string name="dialog_fragment">Dialog Fragment</string>
+	<string name="map_apikey">06u7pxwusvoYogSr3seXOnRqH8CI9ctJRP22efg</string>
+	<string name="toggle_to_db">View By Date</string>
+	<string name="toggle_to_xml">View Recent XML Data</string>
+    <string name="log_db_info">Log DB Info</string>
+    <string name="clear_db">Clear DB</string>
+    <string name="confirm_delete">Delete Them</string>
+    <string name="cancel">Cancel</string>
+    <string name="remove">Remove all quakes ocurring on this date?</string>
+</resources>

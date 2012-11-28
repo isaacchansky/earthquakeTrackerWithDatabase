@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:baselineAligned="false">
+    
+    
+   <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:orientation="vertical"
+     android:layout_weight="0.3">
+     
+      <FrameLayout
+       android:name="map_container"
+       android:id="@+id/map_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+       
+   </LinearLayout>
+     
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+        
+        <Button
+            android:id="@+id/toggleListButton"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/toggle_to_db">
+            
+        </Button>
+        
+        <FrameLayout
+       android:name="quake_info_container"
+       android:id="@+id/quake_info_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+       
+        <FrameLayout
+       android:name="db_info_container"
+       android:id="@+id/db_info_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       />
+        
+    </LinearLayout>
+    
+
+    <FrameLayout
+        android:name="dialog_fragment"
+        android:id="@+id/dialog_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    
+    
+</LinearLayout>
